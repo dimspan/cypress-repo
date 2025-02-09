@@ -2,8 +2,7 @@ class checkDimensions
 {
     constructor()
     {   //Login and logout
-        this.email = "marin@enetpulse.com";
-        this.password = "12345678";
+        
         this.emailField = "#email";
         this.passwordField = "#password";
         this.rememberCheckBox = "#remember";

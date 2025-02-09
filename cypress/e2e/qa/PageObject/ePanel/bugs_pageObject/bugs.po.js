@@ -500,8 +500,7 @@ export class eg110_po{
 //                         if (response.headers['content-type'].includes('image/png')) {
 //                           // Make a request to the URL
 //                           let flag;
-//                           const username = 'stefan@enetpulse.com';
-//                           const password = 'Mufc1878';
+//                          
                         
 //                           // Create Basic Authentication header
 //                           const authHeader = 'Basic ' + btoa(username + ':' + password);

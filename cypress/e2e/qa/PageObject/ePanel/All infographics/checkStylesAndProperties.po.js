@@ -75,9 +75,7 @@ export class enetgraphics_styles_po{
         '.ep_ig_data_container.ep_ig_data_container_player.hide_container','.ep_ig_data_container.ep_ig_data_container_player.hide_container']
     }
 
-    loginForm(){ 
-        cy.LoginEpanel(this.email,"marin@enetpulse.com",this.password,"12345678",this.submitButton,this.topBar,this.burger,this.testClient,"ePanel Sites") 
-    }
+  
 
     openExactGraphic(){
         cy.get(this.infographicsButton).click()        
