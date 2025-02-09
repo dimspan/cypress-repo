@@ -31,8 +31,6 @@ describe("All templates - The format of the player rating is correct",
             cy.visit(url);
         })
 
-        hopo.typedUsername = "marin@enetpulse.com"
-        hopo.typedPass = "12345678"
 
         context("PC view tests LG-501",()=>{
             // it("C0 - Get to infographics",()=>{

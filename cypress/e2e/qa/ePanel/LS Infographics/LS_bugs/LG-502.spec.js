@@ -31,8 +31,6 @@ describe("All templates - Missing label of a certain date format",
             cy.visit(url);
         })
 
-        hopo.typedUsername = "marin@enetpulse.com"
-        hopo.typedPass = "12345678"
 
         context("PC view tests LG-502",()=>{
             // it("C0 - Get to infographics",()=>{

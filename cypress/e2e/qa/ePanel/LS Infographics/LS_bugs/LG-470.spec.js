@@ -31,8 +31,6 @@ describe("All templates - Check if the player's logo is his nationality and not 
             cy.visit(url);
         })
 
-        hopo.typedUsername = "marin@enetpulse.com"
-        hopo.typedPass = "12345678"
 
         context("PC view tests LG-470",()=>{
             // it("C0 - Get to infographics",()=>{

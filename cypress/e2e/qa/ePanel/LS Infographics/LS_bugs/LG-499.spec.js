@@ -31,9 +31,6 @@ describe("All templates - Player name is visible",
             cy.visit(url);
         })
 
-        hopo.typedUsername = "marin@enetpulse.com"
-        hopo.typedPass = "12345678"
-
         context("PC view tests LG-499",()=>{
             // it("C0 - Get to infographics",()=>{
             //     cy.visit(url);             

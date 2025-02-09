@@ -31,9 +31,7 @@ describe("All templates - MOTM label is not hiding",
             cy.visit(url);
         })
 
-        hopo.typedUsername = "marin@enetpulse.com"
-        hopo.typedPass = "12345678"
-
+     
         context("PC view tests LG-471",()=>{
             // it("C0 - Get to infographics",()=>{
             //     cy.visit(url);             
